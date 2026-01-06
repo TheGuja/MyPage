@@ -6,6 +6,7 @@ function App() {
   ]
 
   const other_project_links: NavLink[] = [
+    {name: 'StackOverflow Question Tagging', href: 'https://github.com/Pndablob/StackLM', summary: 'Contributed to the development of automatic programming language detection and topic tag identification of StackOverflow questions through traditional machine learning models - decision trees, support vector machines, neural networks - as well as small language models - QWen2.5.'},
     {name: 'ReciSearch', href: 'https://github.com/TheGuja/Recisearch', summary: 'Contributed to the development of a recipe search engine based on several factors, including ingredients, allergies, and more'},
     {name: 'Python Coding Assistant', href: 'https://github.com/TheGuja/383Project---Python-Coding-Assistant', summary: 'Contributed to the developoment of a Python Coding Assistant utilizing OpenAI APi'}, 
     {name: 'UMass Showdown', href: 'https://github.com/TheGuja/UMassShowdown', summary: 'Contributed to a hackathon project with mechanics similar to Pokemon games but with UMass professors'},
@@ -57,10 +58,6 @@ function App() {
 
           <h2 className='text-3xl font-semibold mb-12 text-emerald-400'>Collaborative Projects</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-            <div className='bg-stone-900/50 border border-stone-800 rounded-lg p-6 hover:border-emerald-400 hover:bg-stone-900/80 transition-all duration-300'>
-              <h3 className='text-lg font-semibold text-emerald-400 mb-2'>StackOverflow Question Tagging</h3>
-              <p className='text-sm text-stone-400 leading-relaxed'>Contributed to the development of automatic programming language detection and topic tag identification of StackOverflow questions through traditional machine learning models - decision trees, support vector machines, neural networks - as well as small language models - QWen2.5.</p>
-            </div>
             {other_project_links.map((link: NavLink) => (
               <a
                 key={link.href}
@@ -77,7 +74,7 @@ function App() {
         </section>
 
         <footer className='border-t border-stone-800 py-8 text-center text-stone-500'>
-          <p>© 2025 Eric Gu. All rights reserved.</p>
+          <p>© 2026 Eric Gu. All rights reserved.</p>
         </footer>
       </main>
     </div>
